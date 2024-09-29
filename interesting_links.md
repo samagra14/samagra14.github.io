@@ -12,7 +12,7 @@ This page contains a list of interesting links that I have come across. I will k
 * [Chris Olah](https://colah.github.io/about.html)
 * [Phil Schmid](https://www.philschmid.de/)
 * [Eugene Yan’s blog](https://eugeneyan.com/)
-* [Nicky Case Blog](https://blog.ncase.me/30/)
+* [Nicky Case Blog](https://blog.ncase.me)
 
 #### Interesting Math Blogs
 * [Gower’s Blog](https://gowers.wordpress.com/) - This is interesting because you will never run out of math blogs. On the sidelines of this blog is a section called **Blogroll** which has more than 30 awesome blogs listed.
