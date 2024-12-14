@@ -17,5 +17,8 @@ This page contains a list of interesting links that I have come across. I will k
 #### Interesting Math Blogs
 * [Gower’s Blog](https://gowers.wordpress.com/) - This is interesting because you will never run out of math blogs. On the sidelines of this blog is a section called **Blogroll** which has more than 30 awesome blogs listed.
 
+#### Linguistics
+* [Awadhi vs Brajbhasha](https://youtu.be/E3JGlTJG0mo) 
+
 #### Sept 2024
 * [Which one is the real paper](https://snarxiv.org/vs-arxiv/) - Fun way to pass time guessing which paper is real.
