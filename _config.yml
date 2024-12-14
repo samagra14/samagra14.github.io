@@ -29,6 +29,7 @@ plugins:
 header_pages:
   - blogs.md
   - interesting_links.md
+  - things_to_do.md
 
 # Set to `true` to show excerpts on the homepage.
 show_excerpts: true
