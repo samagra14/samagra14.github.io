@@ -4,6 +4,30 @@ title: Life Todos
 permalink: /life-todos/
 ---
 
+## Buy a caravan and travel the villages of India 
+
+India is a beautiful country with a history of over 10000 years. Globalisation today has destroyed the cultural uniqueness of people.
+Everyone looks the same, everyone eats the same and everyone speaks the same. Every city will be full of people that conversate in English,
+visit pubs and clubs on the weekends, eat burgers, pizzas very often and would mostly wear western clothing. 
+
+This is however not true for the villages in India where ancient culture is still preserved and people live a simple life. Visiting some of these
+villages would transport you to a bygone era. The best example of this is the [Mattur village](https://youtu.be/DmfXtwSZKNY) in Karnataka. Till date, the people of this village
+speak and conversate in Sanskrit. They study Sanskrit texts, literature and paint graffitis in Sanskrit.
+
+
+
+There are so many such villages. A few on my radar -
+1. Shani Shignapur - Maharashtra : The village with no doors
+2. Jambur - Gujarat: The African village in India
+3. Kodinhi - Kerela: The village of twins with over 400 pairs of twins
+4. Mawlynnong - Meghalaya: The cleanest village in Asia
+5. Malana - Himachal Pradesh: The first democracy in the world
+
+These villages are very remote and offer a way of life that would be a happy escape for anyone visiting them. I wish to someday buy a 
+caravan and start a village tour of this country. I would like to visit these villages, stay with the people, learn about their culture
+and write about it. I would also like to document the people and their way of life through photography.
+
+
 
 ## Fund Awadhi / Brajbhasha Songs with a Modern Twist
 
