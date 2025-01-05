@@ -4,6 +4,15 @@ title: Life Todos
 permalink: /life-todos/
 ---
 
+
+## Table of Contents
+
+1. [Samagropnishad](#samagropnishad)
+2. [Buy a caravan and travel the villages of India](#buy-a-caravan-and-travel-the-villages-of-india)
+  - [Villages to Visit](#villages-to-visit)
+3. [Fund Awadhi / Brajbhasha Songs with a Modern Twist](#fund-awadhi--brajbhasha-songs-with-a-modern-twist)
+  - [Notable Songs](#notable-songs)
+
 ## Samagropnishad
 
 Upanishads are texts written by ancient Indian sages based on their experiments with Nature, Cosmos and Philosophy.
