@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Why you are not seeing usage in your AWS Cost Explorer ?"
+description: "If you're using AWS credits to cover your costs but are confused why you're not seeing any charges in the AWS"
 categories: AWS
 author: Samagra Sharma
 ---

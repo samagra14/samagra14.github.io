@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "WTF is ASGI and WSGI in python apps?"
-description: Discover the essential role of ASGI and WSGI in Python backend development with our in-depth guide. Uncover how these gateway interfaces power communication between web servers and popular frameworks like Django, FastAPI, and Flask. Our tutorial offers a clear breakdown of synchronous and asynchronous server handling, complete with hands-on examples such as constructing an echo server. Perfect for developers seeking to improve Python web application deployment and server performance. Tailored for professionals and hobbyists keen on mastering backend integration with ASGI and WSGI.
+description: "Discover the essential role of ASGI and WSGI in Python backend development with our in-depth guide. Uncover how these gateway interfaces power communication between web servers and popular frameworks like Django, FastAPI, and Flask. Our tutorial offers a clear breakdown of synchronous and asynchronous server handling, complete with hands-on examples such as constructing an echo server. Perfect for developers seeking to improve Python web application deployment and server performance. Tailored for professionals and hobbyists keen on mastering backend integration with ASGI and WSGI."
 categories: WTF
 author: Samagra Sharma
 ---
