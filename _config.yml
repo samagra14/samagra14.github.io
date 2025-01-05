@@ -10,6 +10,13 @@ description: >
 
 # Build settings
 
+# SEO Settings
+url: "https://samagra.me"  # Replace with your actual domain
+lang: en
+twitter:
+  username: samagra_sharma
+  card: summary
+
 # If you clone the Minima repo and build locally, use this setting.
 theme: minima
 
@@ -21,6 +28,7 @@ theme: minima
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+  - jekyll-sitemap
 
 # Theme-specific settings
 
