@@ -7,17 +7,17 @@ author: Samagra Sharma
 ---
 
 
-We all go through hard times. And honestly adulting is more about **surviving hard times** than enjoying the good times. Our expectations often surpass what the universe (Him, Krishna, Parashiv, Mahavishnu - read this as whatever name suits your beliefs) has planned for us leading to turmoil both physical and mental. I have been through a lot of hard times in my life and I have learned a lot from them. Most recent one lasted for about a month and was external in nature. Things that were out of my control and I had a hard time dealing with them. Gained a bit of weight, lost a lot of sleep, had a lot of anxiety, had resultant pimples on my face and was generally not in a good place. However, I was lucky enough to have developed a set of rules for my life that **never let me off the track too much**.
+We all go through hard times. And honestly, adulting is more about **surviving hard times** than enjoying the good times. Our expectations often surpass what the universe (Him, Krishna, Parashiv, Mahavishnu - read this as whatever name suits your beliefs) has planned for us leading to turmoil both physical and mental. I have been through a lot of hard times in my life and I have learned a lot from them. Most recent one lasted for about a month and was external in nature. Things that were out of my control and I had a hard time dealing with them. Gained a bit of weight, lost a lot of sleep, had a lot of anxiety, had resultant pimples on my face and was generally not in a good place. However, I was lucky enough to have developed a set of rules for my life that **never let me off the track too much**.
 
-I am sharing this today because someone I respect a lot was going through a breakup and he said me these words - *"Just feeling useless everywhere, Seattle is feeling depressing, khatam ho chuka hoon, lost all body, health is in declining"*.
+I am sharing this today because someone I respect a lot was going through a breakup, and he told me these words - *"Just feeling useless everywhere, Seattle is feeling depressing, khatam ho chuka hoon, lost all body, health is declining"*.
 
-And this is not an isolated incident. I have this habit of checking up on my folks and sometimes I sense when they are not doing well. Here are a few situations I have seen people with:
+And this is not an isolated incident. I have this habit of checking up on my folks, and sometimes I sense when they are not doing well. Here are a few situations I have seen people with:
 
-A friend got into a car accident in SF, tried to help the party that was slightly hit being an Indian, the party sued him for **100k**. He was already trying to build a company and this was a huge setback. He was depressed for a few months, but bounced back.
+> A friend got into a car accident in SF, tried to help the party slightly hit being an Indian; the party sued him for **100k**. He was already trying to build a company and this was a huge setback. He was depressed for a few months, but bounced back.
 
-A friend was preparing for UPSC since the last 3 years, wrote two mains, failed both, and was depressed for a few months. Looked for jobs, was unable to find one, and was depressed for a few months. Gained a lot of weight, lost a lot of sleep, had a lot of anxiety, had multiple breakdowns, but eventually got a job and is now doing well.
+> A friend was preparing for UPSC since the last 3 years, wrote two mains, failed both, and was depressed for a few months. Looked for jobs, was unable to find one, and was depressed for a few months. Gained a lot of weight, lost a lot of sleep, had a lot of anxiety, had multiple breakdowns, but eventually got a job and is now doing well.
 
-A friend had multiple marriage setbacks, his marriage was fixed twice, and both times it broke off. He was depressed for a few months, was unable to do anything, kept fixated on the girl, but eventually made peace with being single, lives with his family, earns a lot of money and travels a lot.
+> A friend had multiple marriage setbacks, his marriage was fixed twice, and both times it broke off. He was depressed for a few months, was unable to do anything, kept fixated on the girl, but eventually made peace with being single, lives with his family, earns a lot of money and travels a lot.
 
 The point is - **we all break. But we also heal.** These rules help you heal faster and break less.
 
