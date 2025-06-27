@@ -4,9 +4,7 @@ title: "It's okay to be lost in your twenties, they are meant for exploration"
 description: A reflection on the importance of exploration and self-discovery in your twenties.
 categories: Philosophy
 author: Samagra Sharma
-----------------------
-
-### My Perfectly Planned Path
+---
 
 When I was in my early twenties, I genuinely believed I had my life figured out. Finishing my B.Tech in just three and a half years,
 spending a wonderful year as a research scholar in sunny Santa Barbara, California, and preparing myself to embark on a PhD journey
