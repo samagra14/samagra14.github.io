@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Designing an optimised Audio Inference Server"
-description: My thoughts and notes while creating an audion inference server for Tensorfuse.
+description: My thoughts and notes while creating an audio inference server for Tensorfuse.
 categories: Philosophy
 author: Samagra Sharma
 ---
@@ -27,6 +27,29 @@ for various parts of the pipeline and then use that to design the server. I am s
 Triton doesnt support websockets and / or webRTC. To be honest I have never read about WebRTC so I would have to understand that first as well.
 
 #### Pipecat experiments
+
+Pipecat has a [great library of examples](https://github.com/pipecat-ai/pipecat/tree/main/examples/foundational) to get started with voice agents
+I am gonna implement a few of them to understand the overall picture. Here's what I learned relevant to the server design:
+
+Pipecat has three core components - Frames, Pipelines and Processors
+
+Processors are workers that are individually responsible for one thing -
+* Converting received audio to text throughout the interaction 
+* Converting text to audio throughout the interaction
+* Running the LLM model to generate responses throughout the interaction
+
+Think of them as listeners that listen for some input and spit some output. And each one continues to listen throughout the interaction
+
+Now, `Frames` are the data that is passed between these processors. They are like the messages that are sent between the processors.
+For eg, if the LLM outputs - 'Hi This is Samagra, how can I help you?', then the LLM processor will output individual tokens like 'Hi', 'This', 'is', 'Samagra',
+as frames to the TTS processor. The TTS processor will then convert these frames to audio and send them to the client. The output frames of the TTS processor
+will be a collection of audio chunks (as opposed to converting each individual token frame to audio).
+
+I am assuming that Pipecat handles this breaking into frames logic as I dont want to implement that in the server. And as far as communication with the 
+server is concerned, I will most likely need to understand how each of these workers communicate with the server, take that as an API spec and build from there.
+
+
+
 
 #### Benchmarking existing APIs and models.
 
