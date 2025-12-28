@@ -12,6 +12,9 @@ description: >
 
 # SEO Settings
 url: "https://samagra.me"  # Replace with your actual domain
+image:
+  path: /screenshot.png
+  alt: "Samagra Sharma Blog"
 lang: en
 twitter:
   username: samagra_sharma
