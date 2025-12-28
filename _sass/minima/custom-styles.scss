@@ -1,2 +1,65 @@
 // Placeholder to allow defining custom styles that override everything else.
 // (Use `_sass/minima/custom-variables.scss` to override variable defaults)
+
+/* Share Buttons */
+.share-page {
+    margin-top: 2rem;
+    padding-top: 2rem;
+    border-top: 1px solid $border-color-01;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.share-text {
+    font-weight: bold;
+    margin-right: 10px;
+    color: $text-color;
+}
+
+.btn {
+    display: inline-flex;
+    align-items: center;
+    padding: 6px 12px;
+    border: 1px solid $border-color-01;
+    border-radius: 4px;
+    text-decoration: none;
+    color: $text-color;
+    font-size: 0.9em;
+    transition: background-color 0.2s ease, border-color 0.2s ease;
+    background-color: $background-color;
+
+    &:hover {
+        background-color: darken($background-color, 2%);
+        text-decoration: none;
+        border-color: $border-color-03;
+    }
+
+    .svg-icon {
+        margin-right: 5px;
+        width: 16px;
+        height: 16px;
+        fill: currentColor;
+    }
+}
+
+.btn--twitter:hover {
+    color: #1da1f2;
+    border-color: #1da1f2;
+}
+
+.btn--linkedin:hover {
+    color: #0077b5;
+    border-color: #0077b5;
+}
+
+.btn--hacker-news:hover {
+    color: #ff6600;
+    border-color: #ff6600;
+}
+
+.btn--email:hover {
+    color: $brand-color;
+    border-color: $brand-color;
+}

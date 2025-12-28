@@ -1,0 +1,68 @@
+name: Distribute & Validate
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  build-and-validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.1' # Adjust based on your Gemfile/system
+          bundler-cache: true
+
+      - name: Build Site
+        run: bundle exec jekyll build
+
+      - name: Check for Broken Links
+        # This is a placeholder for a link checker, very useful for distribution health
+        # uses: gaurav-nelson/github-action-markdown-link-check@v1
+        run: echo "Site built successfully. Ready for distribution."
+
+      - name: Detect New Post
+        id: detect
+        run: ruby _scripts/get_post_metadata.rb
+
+      # ------------------------------------------------------------------------
+      # AUTO-POSTING STEPS
+      # ------------------------------------------------------------------------
+
+      # 1. Post to X (Twitter)
+      # - name: Post to X
+      #   if: env.NEW_POST_FOUND == 'true'
+      #   uses: ethomson/send-tweet-action@v1
+      #   with:
+      #     status: "New blog post: ${{ env.POST_TITLE }} ${{ env.POST_URL }}"
+      #     consumer-key: ${{ secrets.TWITTER_CONSUMER_KEY }}
+      #     consumer-secret: ${{ secrets.TWITTER_CONSUMER_SECRET }}
+      #     access-token: ${{ secrets.TWITTER_ACCESS_TOKEN }}
+      #     access-token-secret: ${{ secrets.TWITTER_ACCESS_TOKEN_SECRET }}
+
+      # 2. Post to LinkedIn
+      # - name: Post to LinkedIn
+      #   if: env.NEW_POST_FOUND == 'true'
+      #   uses: tapioni/linkedin-post-action@v1
+      #   with:
+      #     access_token: ${{ secrets.LINKEDIN_ACCESS_TOKEN }}
+      #     comment: "Just published a new article: ${{ env.POST_TITLE }} \n\nRead here: ${{ env.POST_URL }}"
+      #     visibility: "PUBLIC"
+
+      # 3. Post to Reddit
+      # - name: Post to Reddit
+      #   if: env.NEW_POST_FOUND == 'true'
+      #   uses: bluwy/reddit-post-action@v1
+      #   with:
+      #     username: ${{ secrets.REDDIT_USERNAME }}
+      #     password: ${{ secrets.REDDIT_PASSWORD }}
+      #     client-id: ${{ secrets.REDDIT_CLIENT_ID }}
+      #     client-secret: ${{ secrets.REDDIT_CLIENT_SECRET }}
+      #     subreddit: ${{ secrets.REDDIT_SUBREDDIT }}
+      #     title: ${{ env.POST_TITLE }}
+      #     url: ${{ env.POST_URL }}
