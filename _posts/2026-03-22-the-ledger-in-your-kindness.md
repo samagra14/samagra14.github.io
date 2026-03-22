@@ -5,8 +5,6 @@ categories: Philosophy
 author: Samagra Sharma
 ---
 
-## The man we already know how to judge
-
 A guy in your friend circle is always around. Replies to her stories, remembers her coffee order, offers to drop her home after every night out. He never says anything, never asks her out, just keeps showing up with this low-grade warmth that feels like friendship if you don't look too closely. Then she starts dating someone. He vanishes. Story replies stop, coffee order forgotten, rides home no longer offered.
 
 Nobody buys his "busy lately." Everyone knows what the warmth was buying. There's an entire internet vocabulary for this man: nice guy, covert contract, emotional manipulation. We've learned to see the ledger when a man holds one.
