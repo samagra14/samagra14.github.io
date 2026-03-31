@@ -38,6 +38,16 @@ plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
 
+# jekyll-feed configuration
+# The main feed is always at /feed.xml
+# Additional per-category feeds are generated at /feed/CATEGORY_NAME.xml
+feed:
+  path: feed.xml           # main all-posts feed (already referenced in footer)
+  categories:
+    - Tech                 # generates /feed/Tech.xml
+    - Philosophy           # generates /feed/Philosophy.xml
+    - Health               # generates /feed/Health.xml
+
 # Theme-specific settings
 
 # If you want to link only specific pages in your header, use this and add the path to the pages
