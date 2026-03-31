@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "WTF is Kubernetes Autoscaling?"
+description: "A practical guide to Kubernetes autoscaling: HPA, VPA, Cluster Autoscaler, and Karpenter — what they do and when to use each."
 categories: K8s
 author: Samagra Sharma
 ---

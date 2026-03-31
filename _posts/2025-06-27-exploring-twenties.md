@@ -110,8 +110,7 @@ is ahead. But you're not late—you're on your own timeline.
 
 Years from now, you'll regret the chances you didn't take more than those you did. What's the
 absolute worst that could happen? Maybe you'll briefly move back home (your parents might
-secretly love having you around!), take a short-term course to upskill, or lean on your suppor
-t network. There's always a way forward, and often what seems like a setback is just
+secretly love having you around!), take a short-term course to upskill, or lean on your support network. There's always a way forward, and often what seems like a setback is just
 preparing you for something much better.
 
 ### The Grand Adventure Awaits

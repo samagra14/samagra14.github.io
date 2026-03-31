@@ -2,7 +2,7 @@
 layout: post
 title: "Designing an optimised Audio Inference Server"
 description: My thoughts and notes while creating an audio inference server for Tensorfuse.
-categories: Philosophy
+categories: Tech
 author: Samagra Sharma
 ---
 

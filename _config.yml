@@ -2,6 +2,11 @@ title: Samagra Sharma
 author:
   name: Samagra Sharma
   email: samagra14@gmail.com
+  url: https://samagra.me/about
+  twitter: samagra_sharma
+
+timezone: Asia/Kolkata
+encoding: utf-8
 
 # The `>` after `description:` means to ignore line-breaks until next key.
 # If you want to omit the line-break after the end of text, use `>-` instead.
@@ -18,7 +23,7 @@ image:
 lang: en
 twitter:
   username: samagra_sharma
-  card: summary
+  card: summary_large_image
 
 # If you clone the Minima repo and build locally, use this setting.
 theme: minima
