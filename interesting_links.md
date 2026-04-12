@@ -9,7 +9,7 @@ This page contains a list of interesting links that I have come across. I will k
 ### Interesting Blogs - Machine Learning and Computer Science
 
 #### Labs and Companies
-* [Anthropic Blog](https://www.anthropic.com/news) and the [Publications Page](https://www.anthropic.com/research)
+* [Anthropic Blog](https://www.anthropic.com/news) and the [Publications Page](https://www.anthropic.com/research) and the [Alignment Page](https://alignment.anthropic.com/)
 * [Open AI Blog](https://openai.com/news/)
 * [DeepMind Blog](https://deepmind.google/discover/blog/)
 * [Tensorfuse Blog](https://www.tensorfuse.io/blog/)
