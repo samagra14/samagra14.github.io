@@ -63,3 +63,107 @@
     color: $brand-color;
     border-color: $brand-color;
 }
+
+/* Newsletter Signup Form
+   -------------------------------------------------- */
+.newsletter-signup {
+    margin-top: 2.5rem;
+    padding-top: 2rem;
+    border-top: 1px solid $border-color-01;
+}
+
+.newsletter-description {
+    margin-bottom: 0.75rem;
+    color: $text-color;
+    font-size: 0.95rem;
+    // Don't override margin-bottom from _base.scss reset — set it directly
+    margin-bottom: 0.75rem !important;
+}
+
+.newsletter-form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    align-items: stretch;
+
+    input[type="email"] {
+        flex: 1 1 220px;
+        min-width: 0;          // prevents overflow on narrow viewports
+        padding: 7px 10px;
+        border: 1px solid $border-color-01;
+        border-radius: 4px;
+        font-size: 0.9rem;
+        font-family: $base-font-family;
+        color: $text-color;
+        background-color: $background-color;
+        transition: border-color 0.15s ease;
+
+        &:focus {
+            outline: none;
+            border-color: $border-color-03;
+        }
+
+        &::placeholder {
+            color: $brand-color;
+            opacity: 1;
+        }
+    }
+
+    button[type="submit"] {
+        flex: 0 0 auto;
+        padding: 7px 16px;
+        border: 1px solid $border-color-03;
+        border-radius: 4px;
+        background-color: $background-color;
+        color: $text-color;
+        font-size: 0.9rem;
+        font-family: $base-font-family;
+        cursor: pointer;
+        transition: background-color 0.15s ease, color 0.15s ease;
+        white-space: nowrap;
+
+        &:hover {
+            background-color: $border-color-03;
+            color: $background-color;
+        }
+    }
+}
+
+// Screen-reader only helper (used for the email label)
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border-width: 0;
+}
+
+/* RSS subscribe link in footer
+   -------------------------------------------------- */
+.rss-subscribe-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    color: $text-color;
+    font-size: 0.85rem;
+    text-decoration: none;
+
+    .svg-icon {
+        width: 14px;
+        height: 14px;
+        fill: #f26522;   // RSS orange — intentionally literal, universally recognised
+    }
+
+    &:hover {
+        color: $link-base-color;
+        text-decoration: none;
+
+        .svg-icon {
+            fill: $link-base-color;
+        }
+    }
+}

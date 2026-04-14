@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Why you are not seeing usage in your AWS Cost Explorer ?"
+description: "AWS credits hide your actual spend in Cost Explorer by default. Here's why and how to see your true usage costs."
 categories: AWS
 author: Samagra Sharma
 ---

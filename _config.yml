@@ -2,6 +2,11 @@ title: Samagra Sharma
 author:
   name: Samagra Sharma
   email: samagra14@gmail.com
+  url: https://samagra.me/about
+  twitter: samagra_sharma
+
+timezone: Asia/Kolkata
+encoding: utf-8
 
 # The `>` after `description:` means to ignore line-breaks until next key.
 # If you want to omit the line-break after the end of text, use `>-` instead.
@@ -18,7 +23,7 @@ image:
 lang: en
 twitter:
   username: samagra_sharma
-  card: summary
+  card: summary_large_image
 
 # If you clone the Minima repo and build locally, use this setting.
 theme: minima
@@ -32,6 +37,22 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-sitemap
+
+feed:
+  categories:
+    - Tech
+    - Philosophy
+    - Health
+
+# jekyll-feed configuration
+# The main feed is always at /feed.xml
+# Additional per-category feeds are generated at /feed/CATEGORY_NAME.xml
+feed:
+  path: feed.xml           # main all-posts feed (already referenced in footer)
+  categories:
+    - Tech                 # generates /feed/Tech.xml
+    - Philosophy           # generates /feed/Philosophy.xml
+    - Health               # generates /feed/Health.xml
 
 # Theme-specific settings
 

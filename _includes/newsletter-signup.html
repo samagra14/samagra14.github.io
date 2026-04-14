@@ -1,0 +1,30 @@
+<section class="newsletter-signup" aria-label="Newsletter signup">
+  <p class="newsletter-description">
+    Enjoyed this? Get new posts in your inbox — no noise, just writing.
+  </p>
+  <form
+    action="https://buttondown.com/api/emails/embed-subscribe/samagra14"
+    method="post"
+    target="popupwindow"
+    onsubmit="window.open('https://buttondown.com/samagra14', 'popupwindow')"
+    class="newsletter-form"
+  >
+    <input type="hidden" name="embed" value="1" />
+    <label for="bd-email" class="sr-only">Email address</label>
+    <input
+      type="email"
+      name="email"
+      id="bd-email"
+      placeholder="your@email.com"
+      required
+      autocomplete="email"
+    />
+    <button type="submit">Subscribe</button>
+  </form>
+  <p class="rss-option">
+    Prefer a feed reader?
+    <a href="{{ '/feed.xml' | absolute_url }}">Subscribe via RSS</a>
+    &nbsp;·&nbsp;
+    <a href="{{ '/subscribe/' | relative_url }}">Other options</a>
+  </p>
+</section>

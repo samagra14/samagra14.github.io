@@ -27,8 +27,8 @@ This page contains a list of interesting links that I have come across. I will k
 * [Phil Schmid](https://www.philschmid.de/)
 * [Eugene Yan’s blog](https://eugeneyan.com/)
 * [Sebastian Ruder](https://ruder.io/)
-* [Andrej Karpathy](http://karpathy.github.io/)
-* [Yann LeCun](http://yann.lecun.com/ex/index.html)
+* [Andrej Karpathy](https://karpathy.github.io/)
+* [Yann LeCun](https://yann.lecun.com/ex/index.html)
 * [Dario Amodei](https://darioamodei.com/)
 * [Nathan Lambert](https://www.interconnects.ai/)
 
