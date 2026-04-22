@@ -16,6 +16,8 @@ layout: base
     {% assign posts = site.posts %}
   {% endif %}
 
+  {% assign posts = posts | where_exp: "post", "post.unlisted != true" %}
+
 
   {%- if posts.size > 0 -%}
     {%- if page.list_title -%}
