@@ -4,6 +4,9 @@ title: "Dharma Artha Kaam Moksha: The Colonial Lobotomy"
 categories: Philosophy
 author: Samagra Sharma
 date: 2026-04-06
+unlisted: true
+sitemap: false
+permalink: /preview/dharma-artha-kaam-moksha-dhk9x2m7/
 ---
 
 The room smelled of camphor and sandalwood and sweat. A young man lay on a cotton mattress in a ganika's salon in Pataliputra. She traced the line of his jaw with her fingers and asked him what he thought of Panini's rule on compound nouns. She was testing him. Her training covered the sixty-four arts, and conversation after sex was one of them. A man who only held a woman's body had learned half of what she was teaching. Downstairs, her attendant tuned a veena. In the next room, a minister's son was reciting a verse he had composed for her, badly. The state funded this establishment with 1,000 silver panas, roughly a million dollars today, and the university where the young man studied logic. It saw no difference between the two investments.
