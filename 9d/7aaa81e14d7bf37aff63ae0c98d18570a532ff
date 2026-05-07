@@ -1,0 +1,21 @@
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.3.4",
+  "base_commit_sha": "9d7aaa81e14d7bf37aff63ae0c98d18570a532ff",
+  "prompts": {
+    "5bf30b2994fe62f2": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "03c48dc0-a959-4dbd-b987-8cb1e7fb2896",
+        "model": "claude-opus-4-7"
+      },
+      "human_author": "Samagra Sharma",
+      "messages": [],
+      "total_additions": 0,
+      "total_deletions": 47,
+      "accepted_lines": 0,
+      "overriden_lines": 0
+    }
+  }
+}
