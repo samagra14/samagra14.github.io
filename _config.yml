@@ -45,9 +45,6 @@ header_pages:
 # Set to `true` to show excerpts on the homepage.
 show_excerpts: true
 
-disqus:
-  shortname: samagra14
-
 google_analytics: G-LVV697V0CN
 
 # Minima specific settings, which are only available from Minima 3.0 onward.
