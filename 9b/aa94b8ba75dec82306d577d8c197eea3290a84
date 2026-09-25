@@ -1,0 +1,31 @@
+_posts/2026-09-24-the-agent-loop-where-it-runs-and-how-it-lasts.md
+  s_fd528823e8d35d::t_4c8331049e5579 3-4,15,17,19,21,23,25,27,29,31,33,35,37,39,41,44-45,48,50,52,56,58,60,62,64,66,68,70,72,75-76,79,81,83,85,87,89,91,93,95,97,99,101,103,105,107,109,111,113,115,117,119,121,123,126-127,130-132,134,136,138,140,142,144,146,148,150,152,154,156,158,160,162,164,167-168,171,173,175,177,179,181,183,185,187,189,191,193,195,197,199,201,203,205,207,209,211,213,215,217,219,221,223,225,227-230,232,234
+  s_fd528823e8d35d::t_c73156ba918b05 54
+assets/images/durable-execution-replay.svg
+  s_fd528823e8d35d::t_666467182b40f1 1-53
+assets/images/sandbox-kinds-by-shared-layer.svg
+  s_fd528823e8d35d::t_5121b7656d300a 1-65
+assets/images/agent-loop-parts-and-hosts.svg
+  s_fd528823e8d35d::t_4eaba169baaf7f 1-53
+assets/images/durable-codex-session-on-temporal.svg
+  s_fd528823e8d35d::t_a43962cf1027f8 1-12,14-34,36,43,50-64,71
+  s_fd528823e8d35d::t_d118317a949fb4 13,35,37-42,44-49,65-70
+assets/images/harness-placement-costs.svg
+  s_fd528823e8d35d::t_852889471d68b5 1-53
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "9baa94b8ba75dec82306d577d8c197eea3290a84",
+  "prompts": {},
+  "sessions": {
+    "s_fd528823e8d35d": {
+      "agent_id": {
+        "tool": "cursor",
+        "id": "",
+        "model": "unknown"
+      },
+      "human_author": "Samagra Sharma <samagra14@gmail.com>"
+    }
+  }
+}
