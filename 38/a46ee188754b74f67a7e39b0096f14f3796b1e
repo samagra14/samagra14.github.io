@@ -1,0 +1,31 @@
+assets/images/where-each-part-fails.svg
+  s_fd528823e8d35d::t_773cee78c1a281 1-38
+_posts/2026-09-24-the-agent-loop-where-it-runs-and-how-it-lasts.md
+  s_fd528823e8d35d::t_773cee78c1a281 1-275
+assets/images/harness-inside-and-outside.svg
+  s_fd528823e8d35d::t_773cee78c1a281 1-68
+assets/images/agent-loop-where-each-part-lives.svg
+  s_fd528823e8d35d::t_773cee78c1a281 1-77
+assets/images/durable-replay.svg
+  s_fd528823e8d35d::t_773cee78c1a281 1-42
+assets/images/durable-codex-session.svg
+  s_fd528823e8d35d::t_773cee78c1a281 1-66
+assets/images/kinds-of-sandboxes.svg
+  s_fd528823e8d35d::t_773cee78c1a281 1-63
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "38a46ee188754b74f67a7e39b0096f14f3796b1e",
+  "prompts": {},
+  "sessions": {
+    "s_fd528823e8d35d": {
+      "agent_id": {
+        "tool": "cursor",
+        "id": "",
+        "model": "unknown"
+      },
+      "human_author": "Samagra Sharma <samagra14@gmail.com>"
+    }
+  }
+}
