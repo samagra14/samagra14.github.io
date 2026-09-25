@@ -1,0 +1,19 @@
+_posts/2026-09-24-the-agent-loop-where-it-runs-and-how-it-lasts.md
+  s_fd528823e8d35d::t_67a23d4c275a6e 7-13
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "b35a01037ff13f2b04cec25a72ccb8a1ea03ae15",
+  "prompts": {},
+  "sessions": {
+    "s_fd528823e8d35d": {
+      "agent_id": {
+        "tool": "cursor",
+        "id": "",
+        "model": "unknown"
+      },
+      "human_author": "Samagra Sharma <samagra14@gmail.com>"
+    }
+  }
+}
