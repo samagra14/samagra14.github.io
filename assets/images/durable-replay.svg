@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 640" role="img" aria-labelledby="replayTitle replayDesc">
+  <title id="replayTitle">A worker crash and a replay from the event history</title>
+  <desc id="replayDesc">The charge activity has a recorded result. After the worker exits, a new worker replays the workflow, receives that recorded result, and starts the ship activity.</desc>
+  <rect width="880" height="640" fill="#fbfaf7"/>
+  <style>
+    text { font-family: -apple-system, system-ui, "Segoe UI", Helvetica, Arial, sans-serif; fill: #1c1917; }
+    .h { font-size: 17px; font-weight: 700; }
+    .b { font-size: 15px; }
+    .s { font-size: 14px; fill: #44403c; }
+  </style>
+
+  <text class="h" x="36" y="40">Workflow code, replayed</text>
+  <rect x="28" y="56" width="400" height="250" rx="12" fill="#eef2ff" stroke="#312e81" stroke-width="1.5"/>
+  <text class="b" x="48" y="90">1. Charge the card.</text>
+  <text class="s" x="48" y="114">Activity. Side effect at the bank.</text>
+  <text class="b" x="48" y="150">2. Ask the warehouse to ship.</text>
+  <text class="s" x="48" y="174">Activity. Runs after charge has a result.</text>
+  <text class="b" x="48" y="210">3. Wait 14 days, then send a note.</text>
+  <text class="s" x="48" y="234">Timer stored by the service.</text>
+  <text class="s" x="48" y="258">The worker process can exit during the wait.</text>
+  <text class="s" x="48" y="282">A worker picks the workflow up when it fires.</text>
+
+  <text class="h" x="468" y="40">Event history, kept by the service</text>
+  <rect x="452" y="56" width="400" height="250" rx="12" fill="#f8f1e4" stroke="#854d0e" stroke-width="1.5"/>
+  <text class="b" x="472" y="90">Workflow started. Order 4812.</text>
+  <text class="b" x="472" y="122">Charge completed.</text>
+  <text class="s" x="472" y="146">Result: payment id, stored here.</text>
+  <text class="b" x="472" y="182">Ship: still open.</text>
+  <text class="s" x="472" y="206">The result line is absent so far.</text>
+  <text class="s" x="472" y="246">This log lives outside the worker.</text>
+  <text class="s" x="472" y="270">A deploy can replace the worker process.</text>
+
+  <rect x="28" y="340" width="824" height="260" rx="12" fill="#e8f0f8" stroke="#1e3a5f" stroke-width="1.5"/>
+  <text class="h" x="48" y="374">What the new worker does</text>
+  <text class="b" x="48" y="408">The first worker exits after the charge result is in the history and before ship runs.</text>
+  <text class="b" x="48" y="436">A new worker loads the history and runs the same workflow code from the top.</text>
+  <text class="b" x="48" y="464">Charge returns the recorded payment id. The bank is left alone on this replay.</text>
+  <text class="b" x="48" y="492">Ship starts, because the history has an opening there.</text>
+  <text class="s" x="48" y="528">If the charge succeeded at the bank and the result was lost before it was recorded,</text>
+  <text class="s" x="48" y="552">the activity runs again. The order id, sent as an idempotency key, makes the bank</text>
+  <text class="s" x="48" y="576">return the original payment. The history then records that result once.</text>
+</svg>

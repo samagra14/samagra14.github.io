@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 760" role="img" aria-labelledby="failTitle failDesc">
+  <title id="failTitle">Where each part of the loop fails</title>
+  <desc id="failDesc">Failures land on the model call, the harness, the tool, and the sandbox, and each one stops the login-form task in a different place.</desc>
+  <rect width="880" height="760" fill="#fbfaf7"/>
+  <style>
+    text { font-family: -apple-system, system-ui, "Segoe UI", Helvetica, Arial, sans-serif; fill: #1c1917; }
+    .h { font-size: 17px; font-weight: 700; }
+    .b { font-size: 15px; }
+    .s { font-size: 14px; fill: #44403c; }
+  </style>
+
+  <rect x="28" y="24" width="824" height="160" rx="12" fill="#f8f1e4" stroke="#854d0e" stroke-width="1.5"/>
+  <text class="h" x="48" y="56">The model call fails</text>
+  <text class="b" x="48" y="84">The provider returns a rate limit, an overload, or it closes the stream halfway.</text>
+  <text class="b" x="48" y="108">A context-length error means this prompt is too long for another try of the same prompt.</text>
+  <text class="s" x="48" y="140">The login-form task is paused inside the harness, waiting on a reply that ended early.</text>
+  <text class="s" x="48" y="164">The sandbox has the half-written test from the previous tool, and it is idle.</text>
+
+  <rect x="28" y="204" width="824" height="168" rx="12" fill="#e8f0f8" stroke="#1e3a5f" stroke-width="1.5"/>
+  <text class="h" x="48" y="236">The harness fails</text>
+  <text class="b" x="48" y="264">The process exits, the laptop sleeps, or the thread grows past the context window.</text>
+  <text class="b" x="48" y="288">Compaction can fail on its own, and then every new message hits the same length error.</text>
+  <text class="s" x="48" y="320">The harness can also loop: pytest fails, the model runs pytest again, and the transcript fills</text>
+  <text class="s" x="48" y="344">with the same log. A huge tool result can be the thing that pushes the next call over the limit.</text>
+
+  <rect x="28" y="392" width="824" height="140" rx="12" fill="#fde8e4" stroke="#9f1239" stroke-width="1.5"/>
+  <text class="h" x="48" y="424">The tool fails</text>
+  <text class="b" x="48" y="452">The model names a tool the harness lacks, or the arguments are the wrong shape.</text>
+  <text class="b" x="48" y="476">The command runs and exits with an error. A truncated log can look like success to the model.</text>
+  <text class="s" x="48" y="508">The printed output can contain a sentence that tries to redirect the task. The harness pastes it back.</text>
+
+  <rect x="28" y="552" width="824" height="168" rx="12" fill="#e5f2e9" stroke="#14532d" stroke-width="1.5"/>
+  <text class="h" x="48" y="584">The sandbox fails</text>
+  <text class="b" x="48" y="612">The room runs out of memory or disk during pytest. The platform reaps an idle machine.</text>
+  <text class="b" x="48" y="636">A write is killed halfway, and the test file is left half-saved.</text>
+  <text class="s" x="48" y="668">With the harness outside, the transcript is still there, and a fresh room can be opened.</text>
+  <text class="s" x="48" y="692">With the harness inside, the transcript ends with the room. A copy stored elsewhere is what remains.</text>
+</svg>
