@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 600" width="960" height="600" font-family="Helvetica, Arial, sans-serif">
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#44403c"/>
+    </marker>
+    <marker id="arrowred" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#b91c1c"/>
+    </marker>
+  </defs>
+  <rect width="960" height="600" fill="#fbfaf7"/>
+  <text x="480" y="36" text-anchor="middle" font-size="20" font-weight="700" fill="#1c1917">A durable Codex session on Temporal</text>
+
+  <rect x="24" y="56" width="912" height="310" rx="14" fill="#eef2ff" stroke="#6366f1" stroke-width="1.5"/>
+  <text x="44" y="82" font-size="15" font-weight="700" fill="#3730a3">Temporal workflow, outside the sandbox</text>
+  <text x="44" y="104" font-size="13" fill="#3730a3">state: session ID, sandbox ID, last checkpoint commit, transcript storage key</text>
+
+  <rect x="44" y="130" width="150" height="58" rx="10" fill="#ffffff" stroke="#6366f1" stroke-width="1.4"/>
+  <text x="119" y="164" text-anchor="middle" font-size="13.5" font-weight="700" fill="#1c1917">create_sandbox</text>
+  <rect x="226" y="130" width="170" height="58" rx="10" fill="#ffffff" stroke="#6366f1" stroke-width="1.4"/>
+  <text x="311" y="164" text-anchor="middle" font-size="13.5" font-weight="700" fill="#1c1917">prepare_workspace</text>
+  <rect x="428" y="130" width="170" height="58" rx="10" fill="#ffffff" stroke="#6366f1" stroke-width="1.4"/>
+  <text x="513" y="156" text-anchor="middle" font-size="13.5" font-weight="700" fill="#1c1917">run_codex_turn</text>
+  <text x="513" y="176" text-anchor="middle" font-size="12" fill="#44403c">sends heartbeats</text>
+  <rect x="630" y="130" width="130" height="58" rx="10" fill="#ffffff" stroke="#6366f1" stroke-width="1.4"/>
+  <text x="695" y="164" text-anchor="middle" font-size="13.5" font-weight="700" fill="#1c1917">checkpoint</text>
+  <rect x="792" y="130" width="130" height="58" rx="10" fill="#ffffff" stroke="#6366f1" stroke-width="1.4"/>
+  <text x="857" y="156" text-anchor="middle" font-size="13" font-weight="700" fill="#1c1917">wait for signal</text>
+  <text x="857" y="176" text-anchor="middle" font-size="12" fill="#44403c">user_message</text>
+
+  <line x1="194" y1="159" x2="223" y2="159" stroke="#44403c" stroke-width="1.8" marker-end="url(#arrow)"/>
+  <line x1="396" y1="159" x2="425" y2="159" stroke="#44403c" stroke-width="1.8" marker-end="url(#arrow)"/>
+  <line x1="598" y1="159" x2="627" y2="159" stroke="#44403c" stroke-width="1.8" marker-end="url(#arrow)"/>
+  <line x1="760" y1="159" x2="789" y2="159" stroke="#44403c" stroke-width="1.8" marker-end="url(#arrow)"/>
+  <path d="M857 128 C 857 104, 720 108, 540 126" fill="none" stroke="#44403c" stroke-width="1.6" marker-end="url(#arrow)"/>
+  <text x="700" y="100" text-anchor="middle" font-size="12" fill="#44403c">next message, next turn</text>
+
+  <rect x="44" y="236" width="150" height="58" rx="10" fill="#fef2f2" stroke="#b91c1c" stroke-width="1.4"/>
+  <text x="119" y="262" text-anchor="middle" font-size="13.5" font-weight="700" fill="#1c1917">create_sandbox</text>
+  <text x="119" y="282" text-anchor="middle" font-size="12" fill="#44403c">a new sandbox</text>
+  <rect x="226" y="236" width="170" height="58" rx="10" fill="#fef2f2" stroke="#b91c1c" stroke-width="1.4"/>
+  <text x="311" y="262" text-anchor="middle" font-size="13.5" font-weight="700" fill="#1c1917">restore_workspace</text>
+  <text x="311" y="282" text-anchor="middle" font-size="12" fill="#44403c">last commit and transcript</text>
+
+  <path d="M500 190 L500 318 L119 318 L119 297" fill="none" stroke="#b91c1c" stroke-width="1.6" stroke-dasharray="6 4" marker-end="url(#arrowred)"/>
+  <text x="508" y="240" font-size="12" fill="#b91c1c">missed heartbeat</text>
+  <line x1="194" y1="265" x2="223" y2="265" stroke="#b91c1c" stroke-width="1.6" marker-end="url(#arrowred)"/>
+  <path d="M396 250 C 430 236, 450 214, 466 192" fill="none" stroke="#b91c1c" stroke-width="1.6" marker-end="url(#arrowred)"/>
+  <text x="44" y="346" font-size="12.5" fill="#b91c1c">after the rebuild, run_codex_turn runs again with codex exec resume and the same session ID</text>
+
+  <rect x="24" y="392" width="560" height="184" rx="14" fill="#ecfdf5" stroke="#059669" stroke-width="1.5"/>
+  <text x="44" y="418" font-size="15" font-weight="700" fill="#065f46">Sandbox, replaceable</text>
+  <text x="44" y="448" font-size="13.5" fill="#292524">repository on the branch agent/pydantic-v2</text>
+  <text x="44" y="474" font-size="13.5" fill="#292524">Codex CLI running one turn with codex exec --json</text>
+  <text x="44" y="500" font-size="13.5" fill="#292524">transcript files under ~/.codex/sessions</text>
+  <text x="44" y="526" font-size="13.5" fill="#292524">model credential, short-lived or behind a proxy</text>
+  <text x="44" y="556" font-size="12.5" fill="#065f46">activities act on the sandbox through the provider's API</text>
+
+  <rect x="620" y="392" width="316" height="84" rx="14" fill="#ffffff" stroke="#57534e" stroke-width="1.5"/>
+  <text x="778" y="424" text-anchor="middle" font-size="14.5" font-weight="700" fill="#1c1917">Git remote</text>
+  <text x="778" y="450" text-anchor="middle" font-size="13" fill="#292524">one pushed commit per turn</text>
+  <rect x="620" y="492" width="316" height="84" rx="14" fill="#ffffff" stroke="#57534e" stroke-width="1.5"/>
+  <text x="778" y="524" text-anchor="middle" font-size="14.5" font-weight="700" fill="#1c1917">Object storage</text>
+  <text x="778" y="550" text-anchor="middle" font-size="13" fill="#292524">saved Codex transcript</text>
+
+  <line x1="680" y1="190" x2="680" y2="388" stroke="#44403c" stroke-width="1.6" marker-end="url(#arrow)"/>
+  <text x="672" y="250" text-anchor="end" font-size="12" fill="#44403c">push</text>
+  <path d="M740 190 C 900 230, 950 420, 940 528" fill="none" stroke="#44403c" stroke-width="1.6" marker-end="url(#arrow)"/>
+  <text x="900" y="290" text-anchor="end" font-size="12" fill="#44403c">copy transcript</text>
+  <line x1="560" y1="190" x2="530" y2="388" stroke="#44403c" stroke-width="1.6" marker-end="url(#arrow)"/>
+  <text x="552" y="376" font-size="12" fill="#44403c">runs one turn inside</text>
+</svg>
