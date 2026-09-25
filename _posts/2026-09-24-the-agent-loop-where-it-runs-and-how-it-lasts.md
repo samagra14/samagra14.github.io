@@ -4,6 +4,13 @@ title: "Where an agent loop runs, how it fails, and how to make a session durabl
 description: This essay names the parts of a coding agent, shows where each part runs and what each placement costs, lists the ways each part fails, and walks through a durable Codex session built on Temporal.
 categories: Tech
 author: Samagra Sharma
+image:
+  path: /assets/images/sandbox-kinds-by-shared-layer.png
+  width: 1200
+  height: 630
+  alt: "A diagram of four kinds of sandbox, a process sandbox, a container, a user-space kernel, and a microVM, showing which layers each one shares with the host machine and which products use each kind."
+twitter:
+  card: summary_large_image
 ---
 
 <style>
