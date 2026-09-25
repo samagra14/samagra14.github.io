@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 500" width="960" height="500" font-family="Helvetica, Arial, sans-serif">
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#44403c"/>
+    </marker>
+  </defs>
+  <rect width="960" height="500" fill="#fbfaf7"/>
+  <text x="480" y="36" text-anchor="middle" font-size="20" font-weight="700" fill="#1c1917">The parts of an agent loop and where each one runs</text>
+
+  <rect x="24" y="205" width="120" height="70" rx="10" fill="#ffffff" stroke="#57534e" stroke-width="1.5"/>
+  <text x="84" y="246" text-anchor="middle" font-size="17" font-weight="700" fill="#1c1917">You</text>
+
+  <rect x="196" y="110" width="300" height="250" rx="14" fill="#eef2ff" stroke="#6366f1" stroke-width="1.5"/>
+  <text x="346" y="136" text-anchor="middle" font-size="15" font-weight="700" fill="#3730a3">Harness environment</text>
+  <text x="346" y="156" text-anchor="middle" font-size="12.5" fill="#3730a3">a laptop, a company's servers, or the sandbox</text>
+  <rect x="222" y="172" width="248" height="168" rx="10" fill="#ffffff" stroke="#6366f1" stroke-width="1.5"/>
+  <text x="346" y="200" text-anchor="middle" font-size="17" font-weight="700" fill="#1c1917">Harness</text>
+  <text x="346" y="228" text-anchor="middle" font-size="13.5" fill="#292524">runs the loop and records each step</text>
+  <text x="346" y="254" text-anchor="middle" font-size="13.5" fill="#292524">API key for model requests</text>
+  <text x="346" y="280" text-anchor="middle" font-size="13.5" fill="#292524">record of the conversation</text>
+  <text x="346" y="306" text-anchor="middle" font-size="13.5" fill="#292524">approvals and settings</text>
+
+  <rect x="618" y="60" width="318" height="150" rx="14" fill="#fff7ed" stroke="#ea580c" stroke-width="1.5"/>
+  <text x="777" y="86" text-anchor="middle" font-size="15" font-weight="700" fill="#9a3412">Inference provider</text>
+  <text x="777" y="106" text-anchor="middle" font-size="12.5" fill="#9a3412">the provider's servers, reached over the internet</text>
+  <rect x="672" y="122" width="210" height="70" rx="10" fill="#ffffff" stroke="#ea580c" stroke-width="1.5"/>
+  <text x="777" y="152" text-anchor="middle" font-size="17" font-weight="700" fill="#1c1917">Model</text>
+  <text x="777" y="176" text-anchor="middle" font-size="13.5" fill="#292524">writes the next reply</text>
+
+  <rect x="618" y="256" width="318" height="214" rx="14" fill="#ecfdf5" stroke="#059669" stroke-width="1.5"/>
+  <text x="777" y="282" text-anchor="middle" font-size="15" font-weight="700" fill="#065f46">Sandbox environment</text>
+  <text x="777" y="302" text-anchor="middle" font-size="12.5" fill="#065f46">laptop restrictions, a container, or a microVM</text>
+  <rect x="652" y="318" width="250" height="134" rx="10" fill="#ffffff" stroke="#059669" stroke-width="1.5"/>
+  <text x="777" y="346" text-anchor="middle" font-size="17" font-weight="700" fill="#1c1917">Sandbox</text>
+  <text x="777" y="374" text-anchor="middle" font-size="13.5" fill="#292524">checked-out repository</text>
+  <text x="777" y="400" text-anchor="middle" font-size="13.5" fill="#292524">compilers and libraries</text>
+  <text x="777" y="426" text-anchor="middle" font-size="13.5" fill="#292524">tools run commands here</text>
+
+  <line x1="144" y1="228" x2="219" y2="228" stroke="#44403c" stroke-width="1.8" marker-end="url(#arrow)"/>
+  <text x="170" y="218" text-anchor="middle" font-size="12" fill="#44403c">request</text>
+  <line x1="219" y1="256" x2="144" y2="256" stroke="#44403c" stroke-width="1.8" marker-end="url(#arrow)"/>
+  <text x="170" y="276" text-anchor="middle" font-size="12" fill="#44403c">reply</text>
+
+  <line x1="470" y1="196" x2="669" y2="144" stroke="#44403c" stroke-width="1.8" marker-end="url(#arrow)"/>
+  <text x="560" y="156" text-anchor="middle" font-size="12" fill="#44403c">conversation so far</text>
+  <line x1="669" y1="172" x2="470" y2="224" stroke="#44403c" stroke-width="1.8" marker-end="url(#arrow)"/>
+  <text x="596" y="222" text-anchor="middle" font-size="12" fill="#44403c">message or tool call</text>
+
+  <line x1="470" y1="286" x2="649" y2="356" stroke="#44403c" stroke-width="1.8" marker-end="url(#arrow)"/>
+  <text x="536" y="296" text-anchor="middle" font-size="12" fill="#44403c">tool call</text>
+  <line x1="649" y1="392" x2="470" y2="318" stroke="#44403c" stroke-width="1.8" marker-end="url(#arrow)"/>
+  <text x="548" y="382" text-anchor="middle" font-size="12" fill="#44403c">tool result</text>
+</svg>
