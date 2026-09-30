@@ -1,0 +1,31 @@
+_posts/2026-09-30-agent-simulations-roadmap.md
+  s_fd528823e8d35d::t_a197c8506f5f65 82-103,105-142
+  s_fd528823e8d35d::t_90237ff2b78fff 104
+  s_fd528823e8d35d::t_54ee3bebfa8544 38
+  s_fd528823e8d35d::t_e923656776a7dc 223-270
+  s_fd528823e8d35d::t_e0a7f5507218f8 53
+  s_fd528823e8d35d::t_147903e9d199d8 55
+  s_fd528823e8d35d::t_6c7d2598545e8f 77
+  s_fd528823e8d35d::t_e3c15044e25f78 67
+  s_fd528823e8d35d::t_4950f17e2c436a 65
+  s_fd528823e8d35d::t_1b2f3517dea65b 143-222
+  s_fd528823e8d35d::t_6b81334f81b917 1-37,39-52,54,56-64,66,68-72,74-76,78-81
+  s_fd528823e8d35d::t_be8a02ab128565 73
+  s_fd528823e8d35d::t_b7f517df0e7421 271
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "c9297e01abd0b19c12f1f315cbae3cdbb5b8537e",
+  "prompts": {},
+  "sessions": {
+    "s_fd528823e8d35d": {
+      "agent_id": {
+        "tool": "cursor",
+        "id": "",
+        "model": "unknown"
+      },
+      "human_author": "Samagra Sharma <samagra14@gmail.com>"
+    }
+  }
+}
