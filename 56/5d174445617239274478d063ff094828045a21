@@ -1,0 +1,19 @@
+_posts/2026-09-30-agent-simulations-roadmap.md
+  s_fd528823e8d35d::t_5591dc1e9b57b6 4,24,127,205,331,343,345,347,349,351,353,355,357,363,373,377,379
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "565d174445617239274478d063ff094828045a21",
+  "prompts": {},
+  "sessions": {
+    "s_fd528823e8d35d": {
+      "agent_id": {
+        "tool": "cursor",
+        "id": "",
+        "model": "unknown"
+      },
+      "human_author": "Samagra Sharma <samagra14@gmail.com>"
+    }
+  }
+}
