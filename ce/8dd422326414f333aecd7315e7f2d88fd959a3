@@ -1,0 +1,25 @@
+assets/images/who-pays-for-simulations.svg
+  s_fd528823e8d35d::t_9e95da9dd55d5d 1-55
+assets/images/app-company-benchmarks-sorted.svg
+  s_fd528823e8d35d::t_dced302beabf6c 1-23,25-46,51
+  s_fd528823e8d35d::t_83d47fc5a7979e 47-50
+  s_fd528823e8d35d::t_02c9a101c20edc 24
+assets/images/simulation-anatomy-and-two-uses.svg
+  s_fd528823e8d35d::t_eebd6612a6da9f 1-86
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "ce8dd422326414f333aecd7315e7f2d88fd959a3",
+  "prompts": {},
+  "sessions": {
+    "s_fd528823e8d35d": {
+      "agent_id": {
+        "tool": "cursor",
+        "id": "",
+        "model": "unknown"
+      },
+      "human_author": "Samagra Sharma <samagra14@gmail.com>"
+    }
+  }
+}
