@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" width="960" height="540" font-family="Helvetica, Arial, sans-serif">
+  <rect width="960" height="540" fill="#fbfaf7"/>
+  <text x="480" y="36" text-anchor="middle" font-size="20" font-weight="700" fill="#1c1917">Who pays for simulations today, and how strong the evidence is</text>
+
+  <text x="36" y="66" font-size="12.5" font-weight="700" fill="#57534e">PAYER</text>
+  <text x="274" y="66" font-size="12.5" font-weight="700" fill="#57534e">WHAT THEY BUY</text>
+  <text x="824" y="66" text-anchor="middle" font-size="12.5" font-weight="700" fill="#57534e">EVIDENCE</text>
+
+  <rect x="24" y="76" width="912" height="64" rx="8" fill="#ffffff" stroke="#a8a29e" stroke-width="1.1"/>
+  <text x="36" y="113" font-size="14" font-weight="700" fill="#1c1917">Frontier labs</text>
+  <text x="274" y="102" font-size="12.5" fill="#292524">training environments and pre-release test campaigns,</text>
+  <text x="274" y="121" font-size="12.5" fill="#292524">at $200 to $2,000 per task and six to seven figures a quarter</text>
+  <rect x="740" y="93" width="168" height="30" rx="15" fill="#ecfdf5" stroke="#059669" stroke-width="1.2"/>
+  <text x="824" y="113" text-anchor="middle" font-size="13" font-weight="700" fill="#065f46">strong</text>
+
+  <rect x="24" y="148" width="912" height="64" rx="8" fill="#ffffff" stroke="#a8a29e" stroke-width="1.1"/>
+  <text x="36" y="176" font-size="14" font-weight="700" fill="#1c1917">Agent vendors</text>
+  <text x="36" y="195" font-size="12" fill="#57534e">Sierra, Decagon, Intercom</text>
+  <text x="274" y="174" font-size="12.5" fill="#292524">simulations built into their own products and</text>
+  <text x="274" y="193" font-size="12.5" fill="#292524">included in the price they charge their customers</text>
+  <rect x="740" y="165" width="168" height="30" rx="15" fill="#ecfdf5" stroke="#059669" stroke-width="1.2"/>
+  <text x="824" y="185" text-anchor="middle" font-size="13" font-weight="700" fill="#065f46">strong</text>
+
+  <rect x="24" y="220" width="912" height="64" rx="8" fill="#ffffff" stroke="#a8a29e" stroke-width="1.1"/>
+  <text x="36" y="248" font-size="14" font-weight="700" fill="#1c1917">Companies building</text>
+  <text x="36" y="267" font-size="14" font-weight="700" fill="#1c1917">their own agents</text>
+  <text x="274" y="246" font-size="12.5" fill="#292524">simulation platforms such as Snowglobe and Coval, as when</text>
+  <text x="274" y="265" font-size="12.5" fill="#292524">Nubank screened 29 setups in 16,000 simulated conversations</text>
+  <rect x="740" y="237" width="168" height="30" rx="15" fill="#fffbeb" stroke="#d97706" stroke-width="1.2"/>
+  <text x="824" y="257" text-anchor="middle" font-size="13" font-weight="700" fill="#92400e">medium</text>
+
+  <rect x="24" y="292" width="912" height="64" rx="8" fill="#ffffff" stroke="#a8a29e" stroke-width="1.1"/>
+  <text x="36" y="329" font-size="14" font-weight="700" fill="#1c1917">Brands and researchers</text>
+  <text x="274" y="318" font-size="12.5" fill="#292524">simulated people and shoppers, such as Simile and</text>
+  <text x="274" y="337" font-size="12.5" fill="#292524">Shopify SimGym, with weak evidence of accuracy</text>
+  <rect x="740" y="309" width="168" height="30" rx="15" fill="#fffbeb" stroke="#d97706" stroke-width="1.2"/>
+  <text x="824" y="329" text-anchor="middle" font-size="13" font-weight="700" fill="#92400e">medium</text>
+
+  <rect x="24" y="364" width="912" height="64" rx="8" fill="#ffffff" stroke="#a8a29e" stroke-width="1.1"/>
+  <text x="36" y="401" font-size="14" font-weight="700" fill="#1c1917">Governments</text>
+  <text x="274" y="390" font-size="12.5" fill="#292524">evaluation programmes at UK AISI, US CAISI,</text>
+  <text x="274" y="409" font-size="12.5" fill="#292524">Singapore's IMDA, and China's CAICT</text>
+  <rect x="740" y="381" width="168" height="30" rx="15" fill="#fffbeb" stroke="#d97706" stroke-width="1.2"/>
+  <text x="824" y="401" text-anchor="middle" font-size="13" font-weight="700" fill="#92400e">medium</text>
+
+  <rect x="24" y="436" width="912" height="64" rx="8" fill="#fef2f2" stroke="#dc2626" stroke-width="1.4" stroke-dasharray="6 4"/>
+  <text x="36" y="464" font-size="14" font-weight="700" fill="#991b1b">Companies buying agents</text>
+  <text x="36" y="483" font-size="14" font-weight="700" fill="#991b1b">from vendors</text>
+  <text x="274" y="462" font-size="12.5" fill="#7f1d1d">neutral simulated comparisons of vendors before a purchase,</text>
+  <text x="274" y="481" font-size="12.5" fill="#7f1d1d">with zero examples at scale found by September 2026</text>
+  <rect x="740" y="453" width="168" height="30" rx="15" fill="#ffffff" stroke="#dc2626" stroke-width="1.2"/>
+  <text x="824" y="473" text-anchor="middle" font-size="13" font-weight="700" fill="#991b1b">open gap</text>
+
+  <text x="480" y="524" text-anchor="middle" font-size="12" fill="#57534e">Sources: Epoch AI and SemiAnalysis for lab prices, vendor documentation, the Nubank paper, and government programme pages</text>
+</svg>

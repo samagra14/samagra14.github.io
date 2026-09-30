@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 504" width="960" height="504" font-family="Helvetica, Arial, sans-serif">
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#44403c"/>
+    </marker>
+  </defs>
+  <rect width="960" height="504" fill="#fbfaf7"/>
+  <text x="480" y="36" text-anchor="middle" font-size="20" font-weight="700" fill="#1c1917">What a simulation contains, and the two jobs it does</text>
+
+  <rect x="24" y="64" width="170" height="236" rx="10" fill="#ffffff" stroke="#57534e" stroke-width="1.3"/>
+  <text x="109" y="90" text-anchor="middle" font-size="15" font-weight="700" fill="#1c1917">Agent under test</text>
+  <rect x="42" y="106" width="134" height="72" rx="8" fill="#f5f5f4" stroke="#57534e" stroke-width="1.1"/>
+  <text x="109" y="136" text-anchor="middle" font-size="13.5" font-weight="700" fill="#292524">model</text>
+  <text x="109" y="156" text-anchor="middle" font-size="11.5" fill="#44403c">chooses each action</text>
+  <rect x="42" y="192" width="134" height="90" rx="8" fill="#f5f5f4" stroke="#57534e" stroke-width="1.1"/>
+  <text x="109" y="222" text-anchor="middle" font-size="13.5" font-weight="700" fill="#292524">harness</text>
+  <text x="109" y="242" text-anchor="middle" font-size="11.5" fill="#44403c">runs the tool calls</text>
+  <text x="109" y="258" text-anchor="middle" font-size="11.5" fill="#44403c">and manages context</text>
+
+  <line x1="196" y1="150" x2="260" y2="150" stroke="#44403c" stroke-width="1.6" marker-end="url(#arrow)"/>
+  <text x="229" y="140" text-anchor="middle" font-size="11.5" fill="#44403c">tool calls</text>
+  <line x1="262" y1="226" x2="198" y2="226" stroke="#44403c" stroke-width="1.6" marker-end="url(#arrow)"/>
+  <text x="229" y="246" text-anchor="middle" font-size="11.5" fill="#44403c">results</text>
+
+  <rect x="264" y="64" width="420" height="236" rx="10" fill="#ecfdf5" stroke="#059669" stroke-width="1.4"/>
+  <text x="474" y="90" text-anchor="middle" font-size="15" font-weight="700" fill="#065f46">Simulated world</text>
+  <rect x="280" y="104" width="186" height="86" rx="8" fill="#ffffff" stroke="#059669" stroke-width="1.1"/>
+  <text x="373" y="132" text-anchor="middle" font-size="13.5" font-weight="700" fill="#065f46">World state</text>
+  <text x="373" y="152" text-anchor="middle" font-size="12" fill="#292524">mock apps, databases,</text>
+  <text x="373" y="169" text-anchor="middle" font-size="12" fill="#292524">files, and accounts</text>
+  <rect x="482" y="104" width="186" height="86" rx="8" fill="#ffffff" stroke="#059669" stroke-width="1.1"/>
+  <text x="575" y="132" text-anchor="middle" font-size="13.5" font-weight="700" fill="#065f46">Other parties</text>
+  <text x="575" y="152" text-anchor="middle" font-size="12" fill="#292524">simulated customers</text>
+  <text x="575" y="169" text-anchor="middle" font-size="12" fill="#292524">and other agents</text>
+  <rect x="280" y="202" width="186" height="86" rx="8" fill="#ffffff" stroke="#059669" stroke-width="1.1"/>
+  <text x="373" y="230" text-anchor="middle" font-size="13.5" font-weight="700" fill="#065f46">Rules</text>
+  <text x="373" y="250" text-anchor="middle" font-size="12" fill="#292524">policies, permissions,</text>
+  <text x="373" y="267" text-anchor="middle" font-size="12" fill="#292524">and budgets</text>
+  <rect x="482" y="202" width="186" height="86" rx="8" fill="#ffffff" stroke="#059669" stroke-width="1.1"/>
+  <text x="575" y="230" text-anchor="middle" font-size="13.5" font-weight="700" fill="#065f46">Clock and events</text>
+  <text x="575" y="250" text-anchor="middle" font-size="12" fill="#292524">deadlines, outages,</text>
+  <text x="575" y="267" text-anchor="middle" font-size="12" fill="#292524">and new messages</text>
+
+  <line x1="686" y1="112" x2="738" y2="112" stroke="#44403c" stroke-width="1.6" marker-end="url(#arrow)"/>
+  <text x="712" y="102" text-anchor="middle" font-size="11.5" fill="#44403c">final state</text>
+
+  <rect x="742" y="64" width="194" height="96" rx="10" fill="#ffffff" stroke="#57534e" stroke-width="1.3"/>
+  <text x="839" y="92" text-anchor="middle" font-size="15" font-weight="700" fill="#1c1917">Verifier</text>
+  <text x="839" y="114" text-anchor="middle" font-size="12" fill="#292524">reads the final state</text>
+  <text x="839" y="131" text-anchor="middle" font-size="12" fill="#292524">and applies the rules</text>
+  <text x="839" y="148" text-anchor="middle" font-size="11.5" fill="#57534e">one verdict, two uses</text>
+
+  <line x1="790" y1="162" x2="790" y2="188" stroke="#44403c" stroke-width="1.6" marker-end="url(#arrow)"/>
+  <line x1="888" y1="162" x2="888" y2="188" stroke="#44403c" stroke-width="1.6" marker-end="url(#arrow)"/>
+  <rect x="742" y="190" width="94" height="110" rx="8" fill="#eff6ff" stroke="#2563eb" stroke-width="1.2"/>
+  <text x="789" y="216" text-anchor="middle" font-size="13.5" font-weight="700" fill="#1e3a8a">reward</text>
+  <text x="789" y="236" text-anchor="middle" font-size="11.5" fill="#1e3a8a">for training</text>
+  <text x="789" y="256" text-anchor="middle" font-size="11.5" fill="#1e3a8a">used by labs</text>
+  <rect x="842" y="190" width="94" height="110" rx="8" fill="#fffbeb" stroke="#d97706" stroke-width="1.2"/>
+  <text x="889" y="216" text-anchor="middle" font-size="13.5" font-weight="700" fill="#92400e">score</text>
+  <text x="889" y="236" text-anchor="middle" font-size="11.5" fill="#92400e">for testing</text>
+  <text x="889" y="256" text-anchor="middle" font-size="11.5" fill="#92400e">used by labs,</text>
+  <text x="889" y="272" text-anchor="middle" font-size="11.5" fill="#92400e">builders,</text>
+  <text x="889" y="288" text-anchor="middle" font-size="11.5" fill="#92400e">and buyers</text>
+
+  <rect x="24" y="326" width="292" height="150" rx="10" fill="#ffffff" stroke="#57534e" stroke-width="1.2"/>
+  <text x="170" y="352" text-anchor="middle" font-size="13.5" font-weight="700" fill="#1c1917">&#964;-bench, Sierra, June 2024</text>
+  <text x="40" y="378" font-size="12.5" fill="#292524">a simulated customer asks for a change,</text>
+  <text x="40" y="398" font-size="12.5" fill="#292524">the agent edits an airline reservation</text>
+  <text x="40" y="418" font-size="12.5" fill="#292524">database under a written policy, and</text>
+  <text x="40" y="438" font-size="12.5" fill="#292524">the verifier checks the database</text>
+
+  <rect x="334" y="326" width="292" height="150" rx="10" fill="#ffffff" stroke="#57534e" stroke-width="1.2"/>
+  <text x="480" y="352" text-anchor="middle" font-size="13.5" font-weight="700" fill="#1c1917">Kimi K3, Moonshot AI, July 2026</text>
+  <text x="350" y="378" font-size="12.5" fill="#292524">mock Gmail, Notion, Slack, and Canvas</text>
+  <text x="350" y="398" font-size="12.5" fill="#292524">run over several simulated days, with</text>
+  <text x="350" y="418" font-size="12.5" fill="#292524">dozens of events that each carry</text>
+  <text x="350" y="438" font-size="12.5" fill="#292524">their own check</text>
+
+  <rect x="644" y="326" width="292" height="150" rx="10" fill="#ffffff" stroke="#57534e" stroke-width="1.2"/>
+  <text x="790" y="352" text-anchor="middle" font-size="13.5" font-weight="700" fill="#1c1917">Vending-Bench 2, Andon Labs, 2025</text>
+  <text x="660" y="378" font-size="12.5" fill="#292524">a vending business runs for one</text>
+  <text x="660" y="398" font-size="12.5" fill="#292524">simulated year, suppliers answer by</text>
+  <text x="660" y="418" font-size="12.5" fill="#292524">email, and the score is the final</text>
+  <text x="660" y="438" font-size="12.5" fill="#292524">bank balance</text>
+</svg>
